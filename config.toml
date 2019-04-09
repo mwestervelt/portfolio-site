@@ -1,4 +1,4 @@
-baseurl = "https://friendly-hoover-35d670.netlify.com/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Mariel Westervelt"
 theme = "hugo-strata-theme"
