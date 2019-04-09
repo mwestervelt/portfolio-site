@@ -1,0 +1,131 @@
+baseurl = "https://friendly-hoover-35d670.netlify.com/"
+languageCode = "en-us"
+title = "Mariel Westervelt"
+theme = "hugo-strata-theme"
+disqusShortname = ""
+# Enable Google Analytics by inserting your tracking code
+googleAnalytics = ""
+# Define how many posts should appear on a site
+paginate = 10
+
+[params]
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Mariel Westervelt"
+	description = "My personal portfolio site"
+
+	# Format dates with Go's time formatting
+	date_format = "2006-01-02"
+
+	# Add read time estimates in the format "X min read"
+	show_read_time = false
+
+	# Add custom assets with their paths relative to the static folder
+	custom_js   = []
+	custom_css  = []
+
+
+	[params.sidebar]
+		# Replace the avatar with a picture of your own under static/images
+		avatar = "Mariel1.jpg"
+		# Use Markdown to format the string. This works nearly all over the theme
+		bio = "**hello world <br>this is a sidebar <br> welcome to my site <br> enjoy.**"
+		github = "mwestervelt"
+		gitlab = ""
+		medium = "@elle.westervelt"
+		linkedin = "mariel-westervelt"
+    twitter = "ellewest"
+
+
+		copyright = [
+			"&copy; Mariel Westervelt 2019",
+		]
+
+
+	[params.about]
+		hide  = false
+		title = "Mariel Westervelt"
+		content = "Once upon a time, there was a young woman who knew that she was capable of more but unsure how to realize her untapped potential in her career. She tried a few things, and learned a few things along the way. She knew she loved solving difficult problems, creating beautiful things, helping people, and above all - learning. Eventually, she found her way. Now she is a **full-stack software engineer**. "
+
+
+	[params.portfolio]
+		hide  = false
+		title = "Recent Work"
+
+		# The images and thumbnails are stored under static/images
+		# Create and change subfolders as you like
+		[[params.portfolio.gallery]]
+			image = "fulls/shelf.png"
+			thumb = "thumbs/shelf.png"
+			title = "BookBae"
+			description = "A book-finder site using the Google Books API"
+
+		[[params.portfolio.gallery]]
+			image = "fulls/home.png"
+			thumb = "thumbs/home.png"
+			title = "Hellogram"
+			description = "If instagram were a Ruby-on-Rails site."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/03.jpg"
+			thumb = "thumbs/03.jpg"
+			title = "Project 3"
+			description = "Description here."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/04.jpg"
+			thumb = "thumbs/04.jpg"
+			title = "Project 4"
+			description = "Description here."
+
+
+
+	[params.recentposts]
+		hide  = true
+		title = "Recent blog posts"
+
+	[params.contact]
+		hide  = false
+		title = "Get In Touch"
+		content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
+
+		# This can be exact coordinates or a searchable address in google maps
+		gmaps_address = "40.6971477,-74.2605565"
+		address = [
+			"New York City, NY",
+			"United States"
+		]
+		phone = "000-000-0000"
+
+		# Since this template is static, the contact form uses www.formspree.io as a
+		# proxy. The form makes a POST request to their servers to send the actual
+		# email. Visitors can send up to a 1000 emails each month for free.
+	    #
+	    # What you need to do for the setup?
+	    #
+	    # - set your email address under 'email' below
+	    # - upload the generated site to your server
+	    # - send a dummy email yourself to confirm your account
+	    # - click the confirm link in the email from www.formspree.io
+	    # - you're done. Happy mailing!
+		email = "hello@example.com"
+
+		[params.contact.form]
+			# Set custom strings for the form if your native
+			# language isn't English
+			name = "Name"
+			email = "Email"
+			message = "Message"
+			submit = "Send message"
+
+
+# Menu links that appear on the left sidebar
+[[menu.main]]
+	name = "Home"
+	url  = "/"
+	weight = 10
+
+[[menu.main]]
+	name = "Blog"
+	url  = "post/"
+	weight = 0
