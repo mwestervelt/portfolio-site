@@ -11,8 +11,12 @@
 		<nav id="sidebar">
 			<ul>
 			{{ range . }}
-				<li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+				<li><a class="sidebar-link" href="{{ .URL | absURL }}">{{ .Name }}</a></li>
 			{{ end }}
+			<li><a href="{{ $.Site.BaseURL }}#contact-form" class="sidebar-link" >Contact</a></li>
+			<li><a href="https://github.com/mwestervelt" target="_blank" class="icon fa-github"><span class="label">GitHub</span></a></li>
+			<li><a href="https://linkedin.com/in/mariel-westervelt" target="_blank" class="icon fa-linkedin-square"><span class="label">Linkedin</span></a></li>
+
 			</ul>
 		</nav>
 	{{ end }}

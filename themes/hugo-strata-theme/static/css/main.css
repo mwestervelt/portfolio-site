@@ -1,12 +1,6 @@
-@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+@import url("//fonts.googleapis.com/css?family=Open+Sans:300,400");
+@import url("//fonts.googleapis.com/css?family=Roboto:100,400");
 
-/*
-	Strata by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -1566,9 +1560,9 @@
 
 	body, input, select, textarea {
 		color: #a2a2a2;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Open Sans", Helvetica, sans-serif;
 		font-size: 16pt;
-		font-weight: 400;
+		font-weight: 300;
 		line-height: 1.75em;
 	}
 
@@ -1601,9 +1595,25 @@
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h3, h4, h5, h6 {
+		font-family: 'Roboto', sans-serif;
+
 		color: #787878;
 		font-weight: 400;
+		line-height: 1em;
+	}
+
+	h2 {
+		font-family: 'Roboto', sans-serif;
+		color: #787878;
+		font-weight: 100;
+		line-height: 1em;
+	}
+
+	.sidebar-link {
+		font-family: 'Roboto', sans-serif;
+		color: #787878;
+		font-weight: 100;
 		line-height: 1em;
 	}
 
@@ -1741,6 +1751,8 @@
 
 	header.major h2 {
 		font-size: 2em;
+		font-family: 'Roboto', sans-serif;
+
 	}
 
 /* Form */
@@ -2094,21 +2106,21 @@
 	ol {
 		list-style: decimal;
 		margin: 0 0 2em 0;
-		padding-left: 1.25em;
+
 	}
 
 		ol li {
-			padding-left: 0.25em;
+
 		}
 
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
-		padding-left: 1em;
+
 	}
 
 		ul li {
-			padding-left: 0.5em;
+		
 		}
 
 		ul.alt {
@@ -2118,7 +2130,7 @@
 
 			ul.alt li {
 				border-top: solid 2px #efefef;
-				padding: 0.5em 0;
+
 			}
 
 				ul.alt li:first-child {
@@ -2440,6 +2452,7 @@
 /* Work Item */
 
 	.work-item {
+		padding-top: 0.5em;
 		margin: 0 0 2em 0;
 	}
 
@@ -2472,7 +2485,7 @@
 		left: 0;
 		padding: 8em 4em 0 0;
 		position: fixed;
-		text-align: right;
+		text-align: center;
 		top: 0;
 		width: 35%;
 	}
@@ -2494,7 +2507,7 @@
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 9.25em;
 		}
 
 /* Footer */
@@ -2553,8 +2566,8 @@
 
 		#main > section {
 			border-top: solid 2px #efefef;
-			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
+			margin: 2em 0 0 0;
+			padding: 2em 0 0 0;
 		}
 
 			#main > section:first-child {
@@ -2938,7 +2951,7 @@
 				padding: 4em 4em 6em 4em;
 				position: relative;
 				text-align: center;
-				width: 100%;
+				width: 10%;
 			}
 
 				#footer .icons {
@@ -2979,6 +2992,7 @@
 
 			h2 {
 				font-size: 1.2em;
+
 			}
 
 			h3 {
@@ -3142,7 +3156,7 @@
 
 	#sidebar ul li a,
 	#sidebar ul li a a:visited {
-		color: #a2a2a2;
+		color: #efefef;
 		text-decoration: none;
 	}
 

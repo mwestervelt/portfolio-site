@@ -1,10 +1,5 @@
 <!DOCTYPE HTML>
 
-{{ "<!-- " | safeHTML }}
-{{ "Strata by HTML5 UP" | safeHTML }}
-{{ "html5up.net | @n33co" | safeHTML }}
-{{ "Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)" | safeHTML }}
-{{ "-->" | safeHTML }}
 <html>
 	<head>
 		<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
@@ -28,6 +23,8 @@
 		{{ "<!--[if lte IE 8]>" | safeHTML }}<script src='{{ .Site.BaseURL }}js/ie/html5shiv.js'></script>{{ "<![endif]-->" | safeHTML}}
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"/>
+
 		{{ "<!--[if lte IE 8]>" | safeHTML }}<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/ie8.css">{{ "<![endif]-->" | safeHTML}}
 
 		{{ with .RSSLink }}

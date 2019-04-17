@@ -1,4 +1,11 @@
 {{ define "main" }}
+<section>
+	<header class="major">
+		{{ with .Site.Params.about.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+	</header>
+	{{ with .Site.Params.about.content }}<p>{{ . | markdownify }}</p>{{ end }}
+</section>
+<hr>
     {{ .Content }}
 
     {{ $paginator := .Paginate .Data.Pages }}

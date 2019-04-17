@@ -14,4 +14,8 @@
 	{{ if not .Site.Params.contact.hide }}
 		{{ partial "contact" . }}
 	{{ end }}
+
+	{{ if not .Site.Params.instagram.hide }}
+		{{ partial "feed" . }}
+	{{ end }}
 {{ end }}
