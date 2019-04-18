@@ -13,7 +13,7 @@ paginate = 10
     # information about you and your website.
 
 	name = "Mariel Westervelt"
-	description = "My personal portfolio site"
+	description = "Software Engineer | Web Developer | Marketing"
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
@@ -46,7 +46,7 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "MARIEL WESTERVELT"
-		content = "**software engineer | web developer | marketing | professional coffee drinker**. "
+		content = "**software engineer | web developer | marketing | professional coffee drinker** "
 
 
 	[params.portfolio]
@@ -58,7 +58,7 @@ paginate = 10
 		[[params.portfolio.gallery]]
 			image = "fulls/shelf.png"
 			thumb = "thumbs/shelf.png"
-			title = "BookBae 📕📗📘"
+			title = "BookBae 📘"
 			description = "**Discover and organize books on this virtual bookshelf.** <br> Created with React, Redux, Rails, and the Google Books API.<br>[GitHub](https://github.com/mwestervelt/bookbae)<br>[Demo Video](https://google.com)"
 
 		[[params.portfolio.gallery]]
@@ -70,7 +70,7 @@ paginate = 10
 		[[params.portfolio.gallery]]
 			image = "fulls/mahalo.png"
 			thumb = "thumbs/mahalothumb.png"
-			title = "Mahalo 🌺🌸"
+			title = "Mahalo 🌺"
 			description = "**Winner of the Flatiron School-Access Labs Health Hackathon!** <br> A single-page app built with React, custom CSS, and scroll animations - for teens to get answers about pregnancy risk.<br>[GitHub](https://github.com/mwestervelt/mahalo-2)<br>[Demo Video](https://google.com)"
 
 		[[params.portfolio.gallery]]

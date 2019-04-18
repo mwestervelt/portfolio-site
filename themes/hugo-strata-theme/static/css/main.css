@@ -2104,13 +2104,13 @@
 /* List */
 
 	ol {
-		list-style: decimal;
+		list-style-type: none;
 		margin: 0 0 2em 0;
 
 	}
 
 		ol li {
-
+			list-style-type: none;
 		}
 
 	ul {
@@ -2120,7 +2120,7 @@
 	}
 
 		ul li {
-		
+		padding: 0.35em;
 		}
 
 		ul.alt {
