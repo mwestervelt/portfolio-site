@@ -11,5 +11,4 @@ When not coding, you can find me walking in the park, singing karaoke, exploring
 
 ## Want to know more?
 [Find me on LinkedIn](https://linkedin/in/mariel-westervelt) <br>
-[See my Resume](https://google.com)
-<!-- <a href="/" download="resume" target="_blank">Download Resume</a> -->
+<a href="https://drive.google.com/file/d/1h_vRHl5t6xZNgXrWCF7Y8kB66Uf4VA_r/view?usp=sharing" target="_blank">See my Resume</a>
