@@ -10,13 +10,13 @@
 		{{ with .Site.LanguageCode }}<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
 
 		{{ if not .Site.Params.OpenGraph.hide }}
-		<meta property="og:title" content="My site"/>
-		<meta property='og:description' content='{{ .Site.Title }}'/>
+		<meta property="og:title" content="Mariel Westervelt"/>
+		<meta property='og:description' content='Software Engineer | Web Developer | Marketing'/>
 		<meta property='og:url' content='https://www.marielwestervelt.com/' />
-		<meta property="og:site_name" content="{{ .Site.Title }}">
-		<meta property="og:url" content="{{ .Permalink }}">
-		<meta property="og:image" content="{{ .Site.BaseURL }}images/succulents.jpg/?sometext">
-	
+		<meta property="og:site_name" content="Mariel Westervelt">
+		<meta property="og:url" content="https://www.marielwestervelt.com/">
+		<meta property="og:image" content="https://www.marielwestervelt.com/images/prettyflowers.jpg">
+
 		{{ end }}
 
 		{{ .Hugo.Generator }}
