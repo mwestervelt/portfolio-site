@@ -1,7 +1,7 @@
 +++
-banner = "banners/placeholder.png"
+banner = "coding.jpg"
 categories = ["Hackathon", "Code"]
-date = "2019-04-16T13:50:46+05:00"
+date = "2019-04-19T13:50:46+05:00"
 menu = ""
 tags = []
 title = "My First Hackathon"
@@ -20,7 +20,7 @@ title = "My First Hackathon"
 * **11:45 am**: At some point we made a "Do not disturb" sign and put it on our table because we had sooo many people coming up and asking to explain our idea. It was good to practice pitching the idea so many times, but it also was taking away from coding and at times, de-railing us.
 * **12:30 pm**: PIZZA BREAK 🍕
 * **1:30 pm**: Resume hacking. The idea has solidified and everyone is in the zone.
-* ** ~2-7 pm**: honestly a blur.
+* **2-7 pm**: Honestly a blur.
 * **7:15 pm**: Realize it's about time to present. The final CSS touches are being added and my teammate Ana and I are practicing our pitch quickly.
 * **8:00 pm**: Everyone assembles for pitches and judges are introduced. Judging criteria and prizes are discussed. There will be two winners - one who used Blockstack (a sponsor of the hackathon, essentially blockchain based authentication/data-storage) and one group that did not. There are 16 groups so we are in for a long night!
 * **9:00 pm**: We present our web app. It works. It's fairly straightforward. We answered the question we came to solve. It's designed well.

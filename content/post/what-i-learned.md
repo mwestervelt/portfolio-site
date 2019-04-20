@@ -1,5 +1,5 @@
 +++
-banner = "banners/placeholder.png"
+banner = "hugo.png"
 categories = ["Learning", "Code"]
 date = "2019-04-16T13:50:46+05:00"
 menu = ""
@@ -28,10 +28,11 @@ But of course, I would not just take the premade theme at face value. I needed t
 ## Customizing a theme
 Every theme is kind of like learning your own little micro-language almost. Most of the things I needed to customize were located in the `config.toml` file. But some weren't, and that's when you have to go digging around in your theme. My theme had subfolders under layouts called `_default` and `partials` where the HTML files were located. These files mostly look like normal HTML, with some of Go's [html/template](https://golang.org/pkg/html/template/) library's syntax in there:
 
-```html
+{{< highlight html >}}
 <div class='row'>
   {{ range .Site.Params.portfolio.gallery }}
-</div>```
+</div>
+{{< /highlight >}}
 
 This reminds me a bit of `erb` files in Ruby on Rails applications, where you can write Ruby code inside of what I affectionately called the angry squid/happy squid, ie: `<%= code here =>`.
 
@@ -48,4 +49,4 @@ When I was first getting this site up, Netlify didn't like that I had customized
 ---
 And so in closing - Yes, Hugo is a fairly straightforward and quick way to get a static site up. Making a lot of customizations may take you down a few rabbit holes in the process. I had a good time learning and tinkering with it and will continue doing so as I make updates and improvements on this site!
 
-Cheers! 
+Cheers!
