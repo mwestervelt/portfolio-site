@@ -10,12 +10,13 @@
 		{{ with .Site.LanguageCode }}<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
 
 		{{ if not .Site.Params.OpenGraph.hide }}
-		<meta name="og:site_name" content="{{ .Site.Title }}">
-		<meta name="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
-		<meta name="og:url" content="{{ .Permalink }}">
-		{{ if not .Site.Params.avatar.hide }}
-		<meta name="og:image" content="{{ .Site.BaseURL }}images/prettyflowers.jpg">
-		{{ end }}
+		<meta property="og:title" content="My site"/>
+		<meta property='og:description' content='{{ .Site.Title }}'/>
+		<meta property='og:url' content='https://www.marielwestervelt.com/' />
+		<meta property="og:site_name" content="{{ .Site.Title }}">
+		<meta property="og:url" content="{{ .Permalink }}">
+		<meta property="og:image" content="{{ .Site.BaseURL }}images/succulents.jpg/?sometext">
+	
 		{{ end }}
 
 		{{ .Hugo.Generator }}
