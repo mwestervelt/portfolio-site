@@ -61,25 +61,25 @@ paginate = 10
 			image = "fulls/shelf.png"
 			thumb = "thumbs/shelf.png"
 			title = "BookBae 📘"
-			description = "**Discover and organize books on this virtual bookshelf.** <br> Created with React, Redux, Rails, and the Google Books API.<br>[GitHub](https://github.com/mwestervelt/bookbae)<br>[Demo Video](https://google.com)"
+			description = "**Discover and organize books on this virtual bookshelf.** <br> Created with React, Redux, Rails, and the Google Books API.<br>[GitHub](https://github.com/mwestervelt/bookbae)<br>[Demo Video](https://youtu.be/oucNtnvRIsA)"
 
 		[[params.portfolio.gallery]]
 			image = "fulls/home.png"
 			thumb = "fulls/home.png"
 			title = "Hellogram 📸"
-			description = "**If Instagram were a Ruby-on-Rails site.**<br>Built with Rails, ActiveStorage, and Bootstrap styling. <br>[GitHub](https://github.com/mwestervelt/hellogram)<br>[Demo Video](https://google.com)"
+			description = "**If Instagram were a Ruby-on-Rails site.**<br>Built with Rails, ActiveStorage, and Bootstrap styling. <br>[GitHub](https://github.com/mwestervelt/hellogram)<br>[Demo Video](https://youtu.be/h3Fvb8BVT6o)"
 
 		[[params.portfolio.gallery]]
 			image = "fulls/mahalo.png"
 			thumb = "thumbs/mahalothumb.png"
 			title = "Mahalo 🌺"
-			description = "**Winner of the Flatiron School-Access Labs Health Hackathon!** <br> A single-page app built with React, custom CSS, and scroll animations - for teens to get answers about pregnancy risk.<br>[GitHub](https://github.com/mwestervelt/mahalo-2)<br>[Demo Video](https://google.com)"
+			description = "**Winner of the Flatiron School-Access Labs Health Hackathon!** <br> A single-page app built with React, custom CSS, and scroll animations - for teens to get answers about pregnancy risk.<br>[GitHub](https://github.com/mwestervelt/mahalo-2)"
 
 		[[params.portfolio.gallery]]
 			image = "fulls/04.jpg"
 			thumb = "thumbs/04.jpg"
 			title = "BeautyBook 💋"
-			description = "**Search for information about your favorite products.** <br> A React app utilizing hooks, custom CSS, and data from the Makeup API. <br>[GitHub](https://github.com/mwestervelt/makeup-box)<br>[Demo Video](https://google.com)"
+			description = "**Search for information about your favorite products.** <br> A React app utilizing hooks, custom CSS, and data from the Makeup API. <br>[GitHub](https://github.com/mwestervelt/makeup-box)"
 
 
 
