@@ -76,9 +76,9 @@ paginate = 10
 			description = "**Winner of the Flatiron School-Access Labs Health Hackathon!** <br> A single-page app built with React, custom CSS, and scroll animations - for teens to get answers about pregnancy risk.<br>[GitHub](https://github.com/mwestervelt/mahalo-2)"
 
 		[[params.portfolio.gallery]]
-			image = "fulls/04.jpg"
-			thumb = "thumbs/04.jpg"
-			title = "BeautyBook 💋"
+			image = "fulls/eyebrowcopy.png"
+			thumb = "thumbs/eyebrowthumb.png"
+			title = "Beautybook. 💋"
 			description = "**Search for information about your favorite products.** <br> A React app utilizing hooks, custom CSS, and data from the Makeup API. <br>[GitHub](https://github.com/mwestervelt/makeup-box)"
 
 

@@ -4,7 +4,9 @@
     </h1>
 
     {{ partial "post-meta" . }}
-</span>
+</span> <br></br>
+<a href="{{ .Permalink }}"><img class="image fit" src="{{ .Site.BaseURL }}images/post-pics/{{ .Params.banner }}" alt="" /></a>
+
 
 <!-- <p>{{ .Summary }}</p> -->
 <hr>

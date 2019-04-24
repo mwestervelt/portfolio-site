@@ -5,15 +5,20 @@
 	</header>
 	{{ with .Site.Params.about.content }}<p>{{ . | markdownify }}</p>{{ end }}
 </section>
+<section>
 	<span>
 		<h1>{{ .Title }}</h1>
 
 		{{ partial "post-meta" . }}
 	</span>
-
+	<img class="image fit" src="{{ .Site.BaseURL }}images/post-pics/{{ .Params.banner }}" alt="" />
 	<p>
 	    {{ .Content }}
 	</p>
+</section>
+
+
+
 
 	{{ template "_internal/disqus.html" . }}
 {{ end }}
